@@ -1,0 +1,10 @@
+pokemongo:
+  build: .
+  #image: matthewbaggett/pokemon-scanner
+  environment:
+    - USERNAME=p_go_map_2
+    - PASSWORD=zewu3+EGH
+    - LOCATION="49.99601892752195 ,8.230520329918276"
+    - GOOGLE_MAPS_KEY=AIzaSyCqvwgyo2RLzboEOhsUE5Wu0qkPizwG8c0
+  ports:
+    - '8000:8000'
